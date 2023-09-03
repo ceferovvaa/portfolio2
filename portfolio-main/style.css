@@ -1,0 +1,191 @@
+body {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+}
+
+a {
+  color: orange;
+}
+a:hover {
+  color: black;
+}
+
+header {
+  padding: 20px 0;
+  background-color: #212529;
+}
+header .imgbox {
+  width: 200px;
+  height: 200px;
+}
+header nav a {
+  font-size: 20px;
+  color: #8c8999;
+  margin-right: 30px;
+  padding-bottom: 50px;
+}
+
+#services {
+  padding: 40px 0 60px;
+}
+#services .textbox {
+  text-align: center;
+}
+#services .textbox h2 {
+  font-size: 45px;
+  font-weight: 700;
+  padding-bottom: 15px;
+}
+#services .textbox h4 {
+  color: #6a6a6a;
+  padding-bottom: 45px;
+  font-size: 20px;
+  line-height: 1.3;
+}
+#services .icon {
+  margin: 0 10px;
+  border-radius: 50%;
+  background-color: #ffc800;
+  padding: 30px;
+  width: 120px;
+  height: 120px;
+  font-size: 55px;
+  color: white;
+}
+#services .textbox h3 {
+  font-size: 30px;
+  font-weight: 700;
+  padding: 20px 0;
+}
+#services .textbox h6 {
+  font-size: 20px;
+  color: #6a6a6a;
+  line-height: 1.4;
+}
+
+#portfolio {
+  padding: 40px 0 60px;
+  background-color: #f6f6f6;
+}
+#portfolio .textboox {
+  text-align: center;
+}
+#portfolio .textboox h1 {
+  font-size: 35px;
+  font-weight: 700;
+}
+#portfolio .textboox h3 {
+  padding: 25px 0 50px;
+  line-height: 1.3;
+  color: #6a6a6a;
+  font-size: 20px;
+}
+#portfolio .textbox {
+  background-color: white;
+  text-align: center;
+}
+#portfolio .textbox h2 {
+  font-size: 25px;
+  font-weight: 700;
+  padding: 25px 0 15px;
+}
+#portfolio .textbox h4 {
+  color: #6a6a6a;
+  font-size: 20px;
+  line-height: 1.3;
+  padding-bottom: 25px;
+}
+#portfolio .imgbox img {
+  width: 350px;
+  height: 220px;
+}
+
+#about .textbox h1 {
+  font-size: 45px;
+  padding: 45px 0 15px;
+  font-weight: 700;
+}
+#about .textbox h1, #about .textbox h6 {
+  text-align: center;
+}
+#about .textbox h6 {
+  font-size: 20px;
+  color: #6a6a6a;
+  padding-bottom: 50px;
+}
+#about .textbox h2, #about .textbox h4 {
+  font-size: 20px;
+  font-weight: 800;
+  padding: 5px 0;
+}
+#about .textbox p {
+  font-size: 20px;
+  line-height: 1.3;
+}
+#about .imgbox img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+#team {
+  background-color: #f8f9fa;
+}
+#team .textbox {
+  text-align: center;
+}
+#team .textbox h3 {
+  font-size: 35px;
+  font-weight: 700;
+}
+#team .textbox h4 {
+  color: #6a6a6a;
+  font-size: 20px;
+  padding: 20px 0;
+}
+#team .textbox h2 {
+  font-size: 30px;
+  font-weight: 700;
+  padding: 25px 0 10px;
+}
+#team .textbox h5 {
+  color: #6a6a6a;
+  font-size: 20px;
+  padding-bottom: 15px;
+}
+#team .textbox h6 {
+  font-size: 25px;
+  color: #6a6a6a;
+  padding: 40px 0 20px;
+}
+#team .imgbox img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 8px solid #dfe0e1;
+}
+#team ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#team ul li {
+  font-size: 25px;
+  background-color: white;
+  color: #000000;
+  border: 4px solid #ffffff;
+  margin: 0 15px;
+}
+
+#facebook .one {
+  width: 200px;
+  height: 200px;
+}
+#facebook .two {
+  width: 170px;
+  height: 170px;
+}
+#facebook .three {
+  width: 170px;
+  height: 200px;
+}/*# sourceMappingURL=style.css.map */
