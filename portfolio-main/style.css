@@ -188,4 +188,18 @@ header nav a {
 #facebook .three {
   width: 170px;
   height: 200px;
+}
+
+#contact {
+  background-color: #212529;
+}
+#contact .textbox {
+  text-align: center;
+}
+#contact .textbox h2 {
+  font-size: 35px;
+  font-weight: 700;
+}
+#contact .textbox h3 {
+  color: red;
 }/*# sourceMappingURL=style.css.map */
