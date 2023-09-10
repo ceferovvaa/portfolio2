@@ -7,7 +7,7 @@ a {
   color: orange;
 }
 a:hover {
-  color: black;
+  color: orange;
 }
 
 header {
@@ -209,7 +209,14 @@ header nav a {
 }
 #contact .box .add input {
   padding: 15px 0;
-  width: 390px;
-  height: 90px;
-  margin: 5px 0;
+  width: 470px;
+  height: 65px;
+  margin: 12px 0;
+}
+#contact .demo {
+  padding: 10px 0;
+}
+#contact .demo .add input {
+  width: 700px;
+  height: 250px;
 }/*# sourceMappingURL=style.css.map */
