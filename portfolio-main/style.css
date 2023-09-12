@@ -99,6 +99,9 @@ header nav a {
   width: 350px;
   height: 220px;
 }
+#portfolio .imgbox img:hover {
+  color: #dc9223;
+}
 
 #about .textbox h1 {
   font-size: 45px;
@@ -217,6 +220,13 @@ header nav a {
   padding: 10px 0;
 }
 #contact .demo .add input {
-  width: 700px;
+  width: 600px;
   height: 250px;
+}
+#contact .box .btn {
+  padding: 15px 25px;
+  background-color: #c19e1d;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
 }/*# sourceMappingURL=style.css.map */
