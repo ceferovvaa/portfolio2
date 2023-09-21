@@ -100,40 +100,22 @@ header nav a {
   line-height: 1.3;
   padding-bottom: 25px;
 }
+#portfolio .imgbox {
+  color: #dc9223;
+}
 #portfolio .imgbox img {
   width: 350px;
   height: 220px;
 }
 #portfolio .imgbox img:hover {
-  color: #dc9223;
+  left: 30px;
+  right: 50px;
 }
 
 #about .textbox h1 {
   font-size: 45px;
   padding: 45px 0 15px;
   font-weight: 700;
-}
-#about .textbox h1, #about .textbox h6 {
-  text-align: center;
-}
-#about .textbox h6 {
-  font-size: 20px;
-  color: #6a6a6a;
-  padding-bottom: 50px;
-}
-#about .textbox h2, #about .textbox h4 {
-  font-size: 20px;
-  font-weight: 800;
-  padding: 5px 0;
-}
-#about .textbox p {
-  font-size: 20px;
-  line-height: 1.3;
-}
-#about .imgbox img {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
 }
 
 #team {
@@ -229,17 +211,18 @@ header nav a {
   padding-bottom: 40px;
 }
 #contact .box .add input {
-  padding: 15px 0;
+  color: rgba(0, 0, 0, 0.1764705882);
+  font-size: 20px;
+  padding: 15px;
   width: 470px;
   height: 65px;
   margin: 12px 0;
 }
-#contact .demo {
-  padding: 10px 0;
-}
 #contact .demo .add input {
+  font-size: 20px;
   width: 600px;
   height: 245px;
+  color: rgba(0, 0, 0, 0.1764705882);
 }
 #contact .box .btn {
   padding: 20px 35px;
@@ -259,8 +242,8 @@ header nav a {
 }
 #website ul li {
   font-size: 20px;
-  background-color: white;
-  color: #000000;
-  border: 4px solid #ffffff;
+  background-color: #000000;
+  color: white;
+  border-radius: 50%;
   margin: 0 15px;
 }/*# sourceMappingURL=style.css.map */
