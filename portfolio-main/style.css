@@ -137,34 +137,75 @@ header nav a {
   right: 50px;
 }
 
-#about .textbox h1 {
+#about {
+  padding-bottom: 50px;
+}
+#about .textboxx {
+  padding: 10px 0 55px;
+}
+#about .textboxx h1 {
   font-size: 45px;
   padding: 45px 0 15px;
   font-weight: 700;
 }
-#about .textbox h4 {
+#about .textboxx h4 {
   color: #969696;
   padding-bottom: 50px;
   font-size: 20px;
 }
-#about .textbox h2 {
+#about .textboxx h2 {
   font-size: 25px;
   font-weight: 600;
 }
-#about .textbox h3 {
+#about .textboxx h3 {
   font-size: 30px;
   font-weight: 700;
   padding-bottom: 15px;
 }
-#about .textbox h6 {
+#about .textboxx h2, #about .textboxx h3, #about .textboxx h6 {
+  padding-right: 35px;
+}
+#about .textboxx h6 {
   font-size: 25px;
   color: #969696;
   line-height: 1.2;
 }
+#about .textboxtwo {
+  padding: 20px 0 55px;
+}
+#about .textboxtwo h4 {
+  font-size: 25px;
+  font-weight: 600;
+}
+#about .textboxtwo h5 {
+  font-size: 30px;
+  font-weight: 700;
+  padding-bottom: 15px;
+}
+#about .textboxtwo p {
+  font-size: 25px;
+  color: #969696;
+  line-height: 1.2;
+}
+#about .imgbox img {
+  border-radius: 50%;
+  border: 8px solid #ebebeb;
+  width: 180px;
+  height: 180px;
+}
+#about .box .btn {
+  position: absolute;
+  left: 520px;
+  color: white;
+  font-size: 20px;
+  padding: 25px 40px;
+  border-radius: 50%;
+  background-color: #ffc800;
+}
 
 #team {
   background-color: #f8f9fa;
-  padding: 35px 0 75px;
+  padding: 50px 0 75px;
 }
 #team .textbox {
   text-align: center;
