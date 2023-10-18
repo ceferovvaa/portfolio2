@@ -162,9 +162,6 @@ header nav a {
   font-weight: 700;
   padding-bottom: 15px;
 }
-#about .textboxx h2, #about .textboxx h3, #about .textboxx h6 {
-  padding-right: 35px;
-}
 #about .textboxx h6 {
   font-size: 25px;
   color: #969696;
@@ -187,6 +184,9 @@ header nav a {
   color: #969696;
   line-height: 1.2;
 }
+#about .imgbox {
+  position: relative;
+}
 #about .imgbox img {
   border-radius: 50%;
   border: 8px solid #ebebeb;
@@ -201,6 +201,30 @@ header nav a {
   padding: 25px 40px;
   border-radius: 50%;
   background-color: #ffc800;
+}
+#about .bottomline {
+  position: absolute;
+  left: 50%;
+  border-style: solid;
+  height: 100%;
+  border-right-color: #bb5a5a;
+  border-right-width: 5px;
+}
+#about .row {
+  display: flex;
+  gap: 20px;
+}
+#about .row .emptycell {
+  flex: 1;
+}
+#about .row .text {
+  flex: 1;
+}
+#about .row .center {
+  width: auto;
+}
+#about .rowreversed {
+  flex-direction: row-reverse;
 }
 
 #team {

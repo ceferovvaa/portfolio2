@@ -18,7 +18,8 @@
             font-weight: 700
             padding-bottom: 15px
         h2,h3,h6
-            padding-right: 35px
+            // padding-right: 35px
+            
         h6
             font-size: 25px
             color: #969696
@@ -37,6 +38,7 @@
             color: #969696
             line-height: 1.2
     .imgbox
+        position: relative
         img
             border-radius: 50%
             border: 8px solid #ebebeb
@@ -52,3 +54,24 @@
             padding: 25px 40px
             border-radius: 50%
             background-color: #ffc800
+
+    .bottomline
+        position: absolute
+        left: 50%
+
+        border-style: solid
+        height: 100%
+        border-right-color: #bb5a5a
+        border-right-width: 5px
+    .row
+        display: flex
+        gap: 20px
+        .emptycell
+            flex: 1
+        .text
+            flex: 1
+        .center
+            width: auto
+
+    .rowreversed
+        flex-direction: row-reverse
