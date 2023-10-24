@@ -194,20 +194,22 @@ header nav a {
   height: 180px;
 }
 #about .box .btn {
-  position: absolute;
-  left: 520px;
+  position: relative;
+  left: 80px;
   color: white;
   font-size: 20px;
-  padding: 25px 40px;
+  padding: 40px 55px;
   border-radius: 50%;
   background-color: #ffc800;
+  border-radius: 50%;
+  border: 8px solid #ebebeb;
 }
 #about .bottomline {
   position: absolute;
   left: 50%;
   border-style: solid;
   height: 100%;
-  border-right-color: #bb5a5a;
+  border-right-color: #eaeaea;
   border-right-width: 5px;
 }
 #about .row {
