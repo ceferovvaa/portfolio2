@@ -34,6 +34,46 @@ header nav a {
   background-image: url("https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg");
   background-position: center center;
   background-size: cover;
+  height: 100vh;
+}
+#welcome .textbox {
+  color: white;
+  text-align: center;
+}
+#welcome .textbox .btn {
+  color: white;
+  font-size: 25px;
+  padding: 15px 35px;
+  background-color: #ffc800;
+}
+#welcome .textbox h3 {
+  padding: 90px 0 35px;
+  font-size: 35px;
+  font-weight: 400;
+}
+#welcome .textbox h4 {
+  padding-bottom: 30px;
+  font-size: 75px;
+  font-weight: 800;
+}
+@media screen and (max-width: 768px) {
+  #welcome {
+    height: 120vh;
+  }
+  #welcome .textbox h3 {
+    padding: 95px 0 25px;
+    font-size: 30px;
+    font-weight: 400;
+  }
+  #welcome .textbox h4 {
+    font-size: 65px;
+  }
+  #welcome .textbox .btn {
+    color: white;
+    font-size: 20px;
+    padding: 10px 30px;
+    background-color: #ffc800;
+  }
 }
 
 #services {
