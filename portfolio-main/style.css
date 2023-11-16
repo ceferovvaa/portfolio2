@@ -75,6 +75,25 @@ header nav a {
     background-color: #ffc800;
   }
 }
+@media screen and (max-width: 900px) {
+  #welcome {
+    height: 150vh;
+  }
+}
+#welcome .textbox h3 {
+  padding-bottom: 50px;
+  font-size: 30px;
+  font-weight: 400;
+}
+#welcome .textbox h4 {
+  font-size: 65px;
+}
+#welcome .textbox .btn {
+  color: white;
+  font-size: 20px;
+  padding: 10px 30px;
+  background-color: #ffc800;
+}
 
 #services {
   padding: 40px 0 60px;
