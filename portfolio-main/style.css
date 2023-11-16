@@ -175,12 +175,23 @@ header nav a {
   color: #dc9223;
 }
 #portfolio .imgbox img {
-  width: 350px;
-  height: 220px;
+  width: 337px;
+  height: 250px;
 }
-#portfolio .imgbox img:hover {
-  left: 30px;
-  right: 50px;
+#portfolio .icon i {
+  color: #9f1212;
+  position: absolute;
+  width: 27%;
+  height: 42%;
+  padding-left: 150px;
+  padding-top: 85px;
+  font-size: 55px;
+  font-weight: 700;
+  opacity: 0;
+}
+#portfolio .icon i:hover {
+  opacity: 0.8;
+  background-color: #d9bc29;
 }
 @media screen and (max-width: 768px) {
   #portfolio .imgbox img {
