@@ -301,10 +301,11 @@ header nav a {
 }
 #team ul li {
   font-size: 25px;
-  background-color: white;
-  color: #000000;
-  border: 4px solid #ffffff;
-  margin: 0 15px;
+  background-color: #1d1735;
+  color: white;
+  border: 10px solid #1d1735;
+  border-radius: 50%;
+  margin: 0 10px;
 }
 
 #facebook .one {
