@@ -347,24 +347,28 @@ header nav a {
   padding-bottom: 35px;
 }
 #contact .box {
-  padding-bottom: 40px;
+  padding-bottom: 30px;
 }
 #contact .box .add input {
   color: rgba(0, 0, 0, 0.1764705882);
-  font-size: 20px;
+  font-size: 18px;
   padding: 15px;
-  width: 470px;
+  width: 550px;
   height: 65px;
-  margin: 12px 0;
+  margin: 0 0 20px;
+  font-weight: 700;
 }
 #contact .demo .add input {
   font-size: 20px;
-  width: 600px;
-  height: 245px;
+  width: 550px;
+  height: 235px;
   color: rgba(0, 0, 0, 0.1764705882);
+  font-weight: 700;
+  padding-bottom: 180px;
 }
 #contact .box .btn {
-  padding: 20px 35px;
+  opacity: 0.5;
+  padding: 20px 55px;
   background-color: #c19e1d;
   color: white;
   font-size: 20px;
@@ -374,6 +378,14 @@ header nav a {
 #website {
   padding: 20px 0;
 }
+#website .textbox h4 {
+  margin-top: 15px;
+}
+#website .textbox h3 {
+  padding: 0 15px 0 0;
+  display: inline-block;
+  margin-top: 15px;
+}
 #website ul {
   display: flex;
   flex-direction: row;
@@ -381,8 +393,9 @@ header nav a {
 }
 #website ul li {
   font-size: 20px;
-  background-color: #000000;
+  background-color: #1d1735;
   color: white;
+  border: 12px solid #1d1735;
   border-radius: 50%;
-  margin: 0 15px;
+  margin: 0 10px;
 }/*# sourceMappingURL=style.css.map */
