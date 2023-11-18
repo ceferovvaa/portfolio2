@@ -80,7 +80,8 @@ header nav a {
 }
 @media screen and (max-width: 900px) {
   #welcome {
-    height: 150vh;
+    height: 170vh;
+    width: 130vw;
   }
 }
 #welcome .textbox h3 {
@@ -135,13 +136,6 @@ header nav a {
   color: #6a6a6a;
   line-height: 1.4;
 }
-@media screen and (max-width: 768px) {
-  #services {
-    display: flex;
-    flex-direction: column;
-  }
-}
-
 #portfolio {
   padding: 40px 0 60px;
   background-color: #f6f6f6;
