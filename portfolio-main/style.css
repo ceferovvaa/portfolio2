@@ -157,8 +157,9 @@ header nav a {
   font-size: 20px;
 }
 #portfolio .textbox {
-  background-color: #c42626;
+  background-color: white;
   text-align: center;
+  margin: 0 0 18px 1px;
 }
 #portfolio .textbox h2 {
   font-size: 25px;
@@ -175,14 +176,14 @@ header nav a {
   color: #dc9223;
 }
 #portfolio .imgbox img {
-  width: 350px;
-  height: 250px;
+  width: 358px;
+  height: 255px;
 }
 #portfolio .icon i {
   color: white;
   position: absolute;
   width: 28%;
-  height: 42%;
+  height: 43%;
   padding-left: 155px;
   padding-top: 95px;
   font-size: 55px;
