@@ -47,7 +47,7 @@ header nav a {
   background-color: #ffc800;
 }
 #welcome .textbox h3 {
-  padding: 200px 0 35px;
+  padding: 170px 0 35px;
   font-size: 35px;
   font-weight: 400;
 }
@@ -60,13 +60,16 @@ header nav a {
   #welcome {
     height: 120vh;
   }
+  #welcome .textbox {
+    padding-top: 123px;
+  }
   #welcome .textbox h3 {
     padding: 95px 0 25px;
     font-size: 30px;
     font-weight: 400;
   }
   #welcome .textbox h4 {
-    font-size: 65px;
+    font-size: 68px;
   }
   #welcome .textbox .btn {
     color: white;
@@ -195,13 +198,12 @@ header nav a {
   background-color: #e4c31c;
 }
 @media screen and (max-width: 768px) {
-  #portfolio .imgbox1 img {
-    width: 280px;
-    height: 150px;
+  #portfolio .imgbox {
+    display: block;
   }
   #portfolio .imgbox img {
-    width: 170px;
-    height: 340px;
+    width: 380px;
+    height: 280px;
   }
 }
 
