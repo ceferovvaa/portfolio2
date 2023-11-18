@@ -58,7 +58,7 @@ header nav a {
 }
 @media screen and (max-width: 768px) {
   #welcome {
-    height: 120vh;
+    height: 110vh;
   }
   #welcome .textbox {
     padding-top: 123px;
@@ -80,8 +80,8 @@ header nav a {
 }
 @media screen and (max-width: 900px) {
   #welcome {
-    height: 170vh;
-    width: 130vw;
+    height: 160vh;
+    width: 100vw;
   }
 }
 #welcome .textbox h3 {
