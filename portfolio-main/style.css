@@ -197,7 +197,7 @@ header nav a {
 }
 @media screen and (max-width: 768px) {
   #portfolio .imgbox {
-    flex-wrap: wrap-reverse;
+    padding-right: 70px;
   }
   #portfolio .imgbox img {
     width: 250px;
