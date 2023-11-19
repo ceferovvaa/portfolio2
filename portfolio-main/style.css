@@ -174,13 +174,13 @@ header nav a {
 }
 #portfolio .imgbox img {
   width: 358px;
-  height: 255px;
+  height: 256px;
 }
 #portfolio .icon i {
   color: white;
   position: absolute;
   width: 28%;
-  height: 43%;
+  height: 54%;
   padding-left: 155px;
   padding-top: 95px;
   font-size: 55px;
@@ -196,8 +196,12 @@ header nav a {
     flex-wrap: wrap-reverse;
   }
   #portfolio .imgbox img {
-    width: 380px;
-    height: 280px;
+    width: 250px;
+    height: 200px;
+  }
+  #portfolio .textbox {
+    width: 200px;
+    height: 100px;
   }
 }
 
